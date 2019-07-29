@@ -1,0 +1,36 @@
+$primary: #0275d8;
+$success: #5cb85c;
+$info: #5bc0de;
+$danger: #d9534f;
+$muted: #6c757d;
+$white:white;
+$black:black;
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-black {
+    background-color: $black;
+}
+
+.bg-primary{
+    background-color: $primary;
+}
+
+.bg-success{
+    background-color:$success;
+}
+
+
+.bg-info{
+    background-color: $info;
+}
+
+.bg-danger{
+    background-color:$danger;
+}
+
+.bg-muted{
+    background-color:$muted;
+}

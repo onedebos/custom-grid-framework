@@ -20,6 +20,17 @@ $columns:12;
 @for $i from 1 through $columns {
     .col-#{$i} {
         grid-column: span $i;
+        
+    }
+}
+@for $i from 1 through 12 {
+    .col-sm-#{$i} {
+        grid-column: span $i;
+
+        @media (max-width: 720px) {
+            grid-column: 1 /span 12;
+        }
+
     }
 }
 
@@ -28,10 +39,3 @@ $columns:12;
     padding: 1rem 0;
 }
 
-.bg-white {
-    background-color: yellow;
-}
-
-.bg-black {
-    background-color: black;
-}

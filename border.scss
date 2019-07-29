@@ -1,0 +1,24 @@
+
+@import 'colors';
+
+@for $i from 1 through 2{
+    .bt-#{$i}{
+        border-top:#{$i}px solid $muted;
+    }
+
+    .bb-#{$i}{
+        border-bottom:#{$i}px solid $muted;
+    }
+
+    .bl-#{$i}{
+        border-left:#{$i}px solid $muted;
+    }
+
+    .br-#{$i}{
+        border-right:#{$i}px solid $muted;
+    }
+
+    .border-#{$i}{
+        border:#{$i}px solid $muted;
+    }
+}

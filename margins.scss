@@ -1,0 +1,45 @@
+
+
+@for $i from 1 through 4{
+    .ml-#{$i}{
+        margin-left:#{$i}em;
+    }
+
+    .mr-#{$i}{
+        margin-right:#{$i}em;
+    }
+
+    .mt-#{$i}{
+        margin-top:#{$i}em;
+    }
+
+    .mb-#{$i}{
+        margin-bottom:#{$i}em;
+    }
+
+    .m-#{$i}{
+        margin:#{$i}em #{$i}em #{$i}em #{$i}em;
+    }
+
+
+
+} 
+
+@for $i from 1 through 4{
+    .pl-#{$i}{
+        padding-left:#{$i}em;
+    }
+
+    .pr-#{$i}{
+        padding-right:#{$i}em;
+    }
+
+    .pt-#{$i}{
+        padding-top:#{$i}em;
+    }
+
+    .pb-#{$i}{
+        padding-bottom:#{$i}em;
+    }
+
+} 

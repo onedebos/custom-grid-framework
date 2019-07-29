@@ -1,0 +1,116 @@
+@import '_reset';
+
+$row-width:940px;
+$col-width:60px;
+$gutter:10px;
+$bg-body: #ccc;
+$mt:10px;
+$mb:10px;
+$type: 'Arial, Helvetica, sans-serif';
+
+body{
+    background-color:$bg-body;
+    font: {
+        family:$type ;
+        weight: 400;
+        size:200px;
+            
+            }
+
+}
+
+
+
+    
+.row{
+    width:$row-width;
+    margin-left: 10px;
+    margin-right:10px; 
+    margin-top:$mt;
+    margin-bottom:$mt;
+
+
+.col-12{
+width:$col-width * 12;
+margin-left:$gutter;
+}
+
+.col-1{
+    width:$col-width*1;
+    margin-right: $gutter;
+
+}
+
+.col-2{
+width:$col-width*2;
+margin-right: $gutter;
+margin-left:$gutter;
+}
+
+.col-3{
+    width:$col-width*3;
+    margin-right: $gutter;
+margin-left:$gutter;
+}
+
+.col-4{
+    width:$col-width*4;
+    margin-right: $gutter;
+margin-left:$gutter;
+}
+
+.col-5{
+    width:$col-width*5;
+    margin-right: $gutter;
+margin-left:$gutter;
+
+}
+
+.col-6{
+    width:$col-width*6;
+    margin-right: $gutter;
+margin-left:$gutter;
+}
+
+.col-7{
+    width:$col-width*7;
+    margin-right: $gutter;
+margin-left:$gutter;
+}
+
+.col-8{
+    width:$col-width*8;
+    margin-right: $gutter;
+margin-left:$gutter;
+}
+
+.col-9{
+    width:$col-width*9;
+    margin-right: $gutter;
+margin-left:$gutter;
+}
+
+.col-10{
+    width:$col-width*10;
+    margin-right: $gutter;
+margin-left:$gutter;
+}
+
+.col-11{
+    width:$col-width*11;
+    margin-right: $gutter;
+margin-left:$gutter;
+}
+
+}
+.box{
+    width:100%;
+    height:100%;
+}
+.bg-white{
+    background-color:yellow;
+}
+
+.bg-black{
+    background-color:black;
+}

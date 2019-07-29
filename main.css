@@ -1,0 +1,93 @@
+body {
+  background-color: #ccc;
+}
+
+.row {
+  width: 940px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.row .col-12 {
+  width: 720px;
+  margin-left: 10px;
+}
+
+.row .col-1 {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.row .col-2 {
+  width: 120px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row .col-3 {
+  width: 180px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row .col-4 {
+  width: 240px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row .col-5 {
+  width: 300px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row .col-6 {
+  width: 360px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row .col-7 {
+  width: 420px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row .col-8 {
+  width: 480px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row .col-9 {
+  width: 540px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row .col-10 {
+  width: 600px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.row .col-11 {
+  width: 660px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.box {
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-white {
+  background-color: yellow;
+}
+
+.bg-black {
+  background-color: black;
+}
+/*# sourceMappingURL=main.css.map */

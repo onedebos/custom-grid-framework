@@ -11,7 +11,7 @@ $columns:12;
 
 .row {
     display: grid;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     grid-template-columns: repeat(12, 1fr);
     grid-column-gap: .5em;
@@ -23,16 +23,55 @@ $columns:12;
         
     }
 }
-@for $i from 1 through 12 {
-    .col-sm-#{$i} {
-        grid-column: span $i;
 
-        @media (max-width: 720px) {
-            grid-column: 1 /span 12;
+@for $i from 1 through $columns {
+
+    .col-xs-#{$i}{
+    
+        @media (max-width: 767px) {
+            grid-column: span $i;
         }
-
+    
     }
-}
+    
+    }
+@for $i from 1 through $columns {
+
+    .col-sm-#{$i}{
+    
+        @media only screen and (min-width: 768px) and (max-width: 991px) 
+        {            grid-column: span $i;
+        }
+    
+    }
+    
+    }
+
+    @for $i from 1 through $columns {
+
+        .col-md-#{$i}{
+        
+            @media only screen and (min-width: 992px) and (max-width: 1199px) 
+            {
+                grid-column: span $i;
+            }
+        
+        }
+        
+        }
+        
+        @for $i from 1 through $columns {
+
+            .col-lg-#{$i}{
+            
+                @media only screen and (min-width: 1200px) 
+                {
+                    grid-column: span $i;
+                }
+            
+            }
+            
+            } 
 
 .box {
     border: 1px solid red;

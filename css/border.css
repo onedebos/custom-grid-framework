@@ -1,4 +1,4 @@
-.bg-darkgrey {
+.bg-dark-grey {
   background-color: #313131;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .bg-info {
-  background-color: #5bc0de;
+  background-color: #0070c9;
 }
 
 .bg-danger {
@@ -31,46 +31,46 @@
 }
 
 .bg-muted {
-  background-color: #6c757d;
+  background-color: #fafafa;
 }
 
 .bt-1 {
-  border-top: 1px solid #6c757d;
+  border-top: 1px solid #fafafa;
 }
 
 .bb-1 {
-  border-bottom: 1px solid #6c757d;
+  border-bottom: 1px solid #fafafa;
 }
 
 .bl-1 {
-  border-left: 1px solid #6c757d;
+  border-left: 1px solid #fafafa;
 }
 
 .br-1 {
-  border-right: 1px solid #6c757d;
+  border-right: 1px solid #fafafa;
 }
 
 .border-1 {
-  border: 1px solid #6c757d;
+  border: 1px solid #fafafa;
 }
 
 .bt-2 {
-  border-top: 2px solid #6c757d;
+  border-top: 2px solid #fafafa;
 }
 
 .bb-2 {
-  border-bottom: 2px solid #6c757d;
+  border-bottom: 2px solid #fafafa;
 }
 
 .bl-2 {
-  border-left: 2px solid #6c757d;
+  border-left: 2px solid #fafafa;
 }
 
 .br-2 {
-  border-right: 2px solid #6c757d;
+  border-right: 2px solid #fafafa;
 }
 
 .border-2 {
-  border: 2px solid #6c757d;
+  border: 2px solid #fafafa;
 }
 /*# sourceMappingURL=border.css.map */

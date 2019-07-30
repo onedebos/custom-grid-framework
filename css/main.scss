@@ -159,3 +159,60 @@ $columns:12;
         }
     }
 }
+
+.section-2{
+    article{
+
+        div{
+            h3{
+                a{
+                    line-height:1.4em;
+                    font-size:1.3em;
+                    text-decoration: none;
+
+                }
+            }
+    
+        }
+
+    }
+}
+.section-3{
+    article{
+        h4{
+            display: none;
+        }
+        div{
+            h3{
+                a{
+                    line-height:1.4em;
+                    font-size:1.3em;
+                    text-decoration: none;
+
+
+                }
+            }
+        }
+
+    }
+}
+
+.section-4{
+    position: relative;
+
+    article{
+            width: 2560px;
+    height: 624px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../assets/images/airpods.jpg");
+    margin-left:-600px;
+    position: absolute;
+
+    div{
+        // position: absolute;
+        // z-index: 999;
+    }
+    }
+}
+

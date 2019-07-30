@@ -169,6 +169,14 @@ body {
   color: #0070c9;
 }
 
+.text-black {
+  color: black;
+}
+
+.text-darkgrey {
+  color: #313131;
+}
+
 .ml-1 {
   margin-left: 1em;
 }
@@ -865,5 +873,35 @@ body {
 .section-1 article h3, .section-1 article p {
   line-height: 1.4em;
   font-size: 1.3em;
+}
+
+.section-2 article div h3 a {
+  line-height: 1.4em;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.section-3 article h4 {
+  display: none;
+}
+
+.section-3 article div h3 a {
+  line-height: 1.4em;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+.section-4 {
+  position: relative;
+}
+
+.section-4 article {
+  width: 2560px;
+  height: 624px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../assets/images/airpods.jpg");
+  margin-left: -600px;
+  position: absolute;
 }
 /*# sourceMappingURL=main.css.map */

@@ -23,7 +23,7 @@
 }
 
 .bg-info {
-  background-color: #5bc0de;
+  background-color: #0070c9;
 }
 
 .bg-danger {
@@ -77,6 +77,14 @@ body {
 }
 
 .text-info {
-  color: #5bc0de;
+  color: #0070c9;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-darkgrey {
+  color: #313131;
 }
 /*# sourceMappingURL=text.css.map */

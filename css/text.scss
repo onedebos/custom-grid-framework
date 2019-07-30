@@ -1,7 +1,17 @@
+@import 'colors';
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size:14px;
     font-weight: normal;
+}
+
+@for $i from 1 through 4{
+    
+.text-#{$i}
+{
+    font-size:#{$i}em;
+}
 }
 
 
@@ -18,9 +28,13 @@ body{
     }
 
     .text-bold{
-        font-weight: bold;
+        font-weight: 600;
     }
 
     .text-normal{
         font-weight: 400;
+    }
+
+    .text-info{
+        color:$info;
     }

@@ -73,9 +73,20 @@ $columns:12;
             
             } 
 
-.box {
-    border: 1px solid red;
-    padding: 1rem 0;
+.flex-this{
+    display: flex;
+    justify-content: center;
+    li{
+        padding:1em;
+        list-style: none;
+        a{
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
 }
 
 .nav-ul{
@@ -128,4 +139,23 @@ $columns:12;
 
         display: none;
 }
+}
+
+
+
+.section-1{
+    article{
+
+        h1{
+            font-weight: 600;
+            line-height:1.14;
+            font-size:1.8em;
+            
+        }
+        h3,p{
+            line-height:1.4em;
+            font-size:1.3em;
+            
+        }
+    }
 }

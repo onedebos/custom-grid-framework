@@ -1,5 +1,9 @@
-.bg-darkgrey {
+.bg-dark-grey {
   background-color: #313131;
+}
+
+.bg-grey {
+  background-color: #ccc;
 }
 
 .bg-white {
@@ -19,7 +23,7 @@
 }
 
 .bg-info {
-  background-color: #5bc0de;
+  background-color: #0070c9;
 }
 
 .bg-danger {
@@ -27,6 +31,6 @@
 }
 
 .bg-muted {
-  background-color: #6c757d;
+  background-color: #fafafa;
 }
 /*# sourceMappingURL=colors.css.map */

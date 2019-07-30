@@ -178,19 +178,26 @@ $columns:12;
     }
 }
 .section-3{
+
+    
+
     article{
+
+
         h4{
             display: none;
+
         }
         div{
             h3{
                 a{
-                    line-height:1.4em;
+                    line-height:1.2em;
                     font-size:1.3em;
                     text-decoration: none;
 
 
                 }
+                
             }
         }
 
@@ -201,21 +208,90 @@ $columns:12;
     position: relative;
 
     article{
-            width: 2560px;
-    height: 624px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url("../assets/images/airpods.jpg");
-    margin-left:-600px;
-    position: absolute;
 
-    div{
-        // position: absolute;
-        // z-index: 999;
+        position: relative;
+            width: 100%;
+    height: 624px;
+    background-size: cover;
+    background-image: url("../assets/images/airpods1.jpg");
+        
     }
-    }
+
+    .section-4-text{
+        position: absolute;
+        bottom:0;
+        top:1;
+        left:0;
+        right:0;
+        color:#fff;
+    
+    ul{
+        li{
+          a{
+            color:#fff;
+          }  
+        }
+    }}
+
 }
 
+.section-5{
+    margin-top:1em;
+    article
+    {
+        margin:0 auto;
+        width:100%;
+        h2{
+            text-align: center;
+            img{
+                width:150px;
+            }
+        }
+
+        h3{
+            font-size:1.5em;
+        }
+        figure{
+            img{
+                max-width:100%;
+                
+        }
+    }
+}
+}
+
+.section-6{
+    margin-top:0.5em;
+    article
+    {
+        margin:0 auto;
+        width:100%;
+        h1{
+            a{
+                text-decoration: none;
+                color:#333;
+            }
+            text-align: center;
+            img{
+                width:150px;
+            }
+        }
+
+        h3{
+            font-size:1.5em;
+            a{
+                text-decoration: none;
+                color:#333;
+            }
+        }
+        figure{
+            img{
+                max-width:100%;
+                
+        }
+    }
+}
+}
 footer{
     background-color:#f2f2f2;
     color:#333;

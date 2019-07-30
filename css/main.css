@@ -886,7 +886,7 @@ body {
 }
 
 .section-3 article div h3 a {
-  line-height: 1.4em;
+  line-height: 1.2em;
   font-size: 1.3em;
   text-decoration: none;
 }
@@ -896,12 +896,138 @@ body {
 }
 
 .section-4 article {
-  width: 2560px;
+  position: relative;
+  width: 100%;
   height: 624px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url("../assets/images/airpods.jpg");
-  margin-left: -600px;
+  background-size: cover;
+  background-image: url("../assets/images/airpods1.jpg");
+}
+
+.section-4 .section-4-text {
   position: absolute;
+  bottom: 0;
+  top: 1;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.section-4 .section-4-text ul li a {
+  color: #fff;
+}
+
+.section-5 {
+  margin-top: 1em;
+}
+
+.section-5 article {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-5 article h2 {
+  text-align: center;
+}
+
+.section-5 article h2 img {
+  width: 150px;
+}
+
+.section-5 article h3 {
+  font-size: 1.5em;
+}
+
+.section-5 article figure img {
+  max-width: 100%;
+}
+
+.section-6 {
+  margin-top: 0.5em;
+}
+
+.section-6 article {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.section-6 article h1 {
+  text-align: center;
+}
+
+.section-6 article h1 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.section-6 article h1 img {
+  width: 150px;
+}
+
+.section-6 article h3 {
+  font-size: 1.5em;
+}
+
+.section-6 article h3 a {
+  text-decoration: none;
+  color: #333;
+}
+
+.section-6 article figure img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+footer .footer-warning {
+  margin: 0 24em;
+  padding: 1em 1em;
+  border-bottom: 1px solid #333;
+  max-width: 100vw;
+}
+
+footer div ul {
+  padding-right: 2em;
+  font-size: 12px;
+}
+
+footer div ul li:first-child {
+  font-weight: bold;
+}
+
+footer div ul li {
+  color: #333;
+}
+
+footer .footer-mobile li {
+  padding: 10px 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #333;
+}
+
+footer .footer-mobile li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .footer-main {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-mobile {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

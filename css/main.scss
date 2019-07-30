@@ -78,3 +78,54 @@ $columns:12;
     padding: 1rem 0;
 }
 
+.nav-ul{
+    display:flex;
+    justify-content: space-evenly;
+    padding:1em 3em;
+    @media (max-width: 767px) {
+    display: none;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1000px) 
+{
+
+}
+    
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color:white;
+
+            
+        }
+        a:hover{
+            color:$muted;
+        }
+    }
+   
+}
+
+.mini-nav{
+    display: flex;
+    justify-content:space-between;
+    padding:1em 1em;
+
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+            color:white;
+
+            i{
+                font-size:1.5em;
+            }
+        }
+        a:hover{
+            color:$muted;
+        }
+    }
+    @media (min-width: 767px) {
+
+        display: none;
+}
+}

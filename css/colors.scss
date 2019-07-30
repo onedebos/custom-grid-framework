@@ -5,7 +5,12 @@ $danger: #d9534f;
 $muted: #6c757d;
 $white:white;
 $black:black;
+$dark-grey:#313131;
+$grey:#ccc;
 
+.bg-darkgrey{
+    background-color: $dark-grey;
+}
 .bg-white {
     background-color: $white;
 }

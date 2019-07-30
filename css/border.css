@@ -1,3 +1,35 @@
+.bg-darkgrey {
+  background-color: #313131;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-primary {
+  background-color: #0275d8;
+}
+
+.bg-success {
+  background-color: #5cb85c;
+}
+
+.bg-info {
+  background-color: #5bc0de;
+}
+
+.bg-danger {
+  background-color: #d9534f;
+}
+
+.bg-muted {
+  background-color: #6c757d;
+}
+
 .bt-1 {
   border-top: 1px solid #6c757d;
 }

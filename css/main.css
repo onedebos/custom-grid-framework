@@ -257,6 +257,10 @@ body {
   padding-bottom: 4em;
 }
 
+.bg-darkgrey {
+  background-color: #313131;
+}
+
 .bg-white {
   background-color: white;
 }
@@ -283,6 +287,10 @@ body {
 
 .bg-muted {
   background-color: #6c757d;
+}
+
+.bg-darkgrey {
+  background-color: #313131;
 }
 
 .bg-white {
@@ -702,5 +710,67 @@ body {
 .box {
   border: 1px solid red;
   padding: 1rem 0;
+}
+
+.nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 1em 3em;
+}
+
+@media (max-width: 767px) {
+  .nav-ul {
+    display: none;
+  }
+}
+
+.nav-ul li {
+  list-style: none;
+}
+
+.nav-ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-ul li a:hover {
+  color: #6c757d;
+}
+
+.mini-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1em 1em;
+}
+
+.mini-nav li {
+  list-style: none;
+}
+
+.mini-nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.mini-nav li a i {
+  font-size: 1.5em;
+}
+
+.mini-nav li a:hover {
+  color: #6c757d;
+}
+
+@media (min-width: 767px) {
+  .mini-nav {
+    display: none;
+  }
 }
 /*# sourceMappingURL=main.css.map */

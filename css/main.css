@@ -177,6 +177,14 @@ body {
   color: #313131;
 }
 
+.text-white {
+  color: #fff;
+}
+
+.text-grey {
+  color: #ccc;
+}
+
 .ml-1 {
   margin-left: 1em;
 }

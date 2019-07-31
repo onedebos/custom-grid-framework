@@ -177,6 +177,14 @@ body {
   color: #313131;
 }
 
+.text-white {
+  color: #fff;
+}
+
+.text-grey {
+  color: #ccc;
+}
+
 .ml-1 {
   margin-left: 1em;
 }
@@ -956,7 +964,6 @@ body {
 
 .section-6 article h1 a {
   text-decoration: none;
-  color: #333;
 }
 
 .section-6 article h1 img {
@@ -969,7 +976,6 @@ body {
 
 .section-6 article h3 a {
   text-decoration: none;
-  color: #333;
 }
 
 .section-6 article figure img {
@@ -980,28 +986,13 @@ body {
   margin-top: 0.5em;
 }
 
-.section-7 .im1 {
-  width: 652px;
-  height: 580px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("../assets/images/card.jpg");
-}
-
-.section-7 .im2 {
-  width: 652px;
-  height: 580px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("../assets/images/iphone.jpg");
+.section-7 article {
+  margin: 0 auto;
+  width: 100%;
 }
 
 .section-7 article h1 {
   text-align: center;
-}
-
-.section-7 article h1 img {
-  width: 150px;
 }
 
 .section-7 article h3 {
@@ -1011,6 +1002,10 @@ body {
 .section-7 article h3 a {
   text-decoration: none;
   color: #333;
+}
+
+.section-7 article figure img {
+  max-width: 100%;
 }
 
 footer {

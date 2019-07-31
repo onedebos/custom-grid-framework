@@ -87,4 +87,12 @@ body {
 .text-darkgrey {
   color: #313131;
 }
+
+.text-white {
+  color: #fff;
+}
+
+.text-grey {
+  color: #ccc;
+}
 /*# sourceMappingURL=text.css.map */

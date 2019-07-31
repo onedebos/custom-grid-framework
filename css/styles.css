@@ -878,7 +878,8 @@ body {
   font-size: 1.8em;
 }
 
-.section-1 article h3, .section-1 article p {
+.section-1 article h3,
+.section-1 article p {
   line-height: 1.4em;
   font-size: 1.3em;
 }
@@ -1053,6 +1054,30 @@ footer .footer-mobile li a {
 
 @media (max-width: 768px) {
   .footer-main {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .figmd {
+    display: block;
+  }
+  .figlg {
+    display: none;
+  }
+  .figsm {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .figmd {
+    display: none;
+  }
+  .figlg {
+    display: block;
+  }
+  .figsm {
     display: none;
   }
 }

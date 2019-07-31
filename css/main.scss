@@ -1,0 +1,74 @@
+@import 'reset';
+@import 'text';
+@import 'margins';
+@import 'colors';
+@import 'border';
+
+//variables
+$columns:12;
+
+
+
+.row {
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: .5em;
+}
+
+@for $i from 1 through $columns {
+    .col-#{$i} {
+        grid-column: span $i;
+        
+    }
+}
+
+@for $i from 1 through $columns {
+
+    .col-xs-#{$i}{
+    
+        @media(max-width:576px){
+            grid-column: span $i;
+        }
+    
+    }
+    
+    }
+@for $i from 1 through $columns {
+
+    .col-md-#{$i}{
+    
+        @media only screen and (min-width: $xs-width) and (max-width: $md-width){
+                 grid-column: span $i;
+        }
+    
+    }
+    
+    }
+
+    @for $i from 1 through $columns {
+
+        .col-lg-#{$i}{
+        
+            @media(min-width:$md-width) and (max-width: $lg-width){
+                grid-column: span $i;
+            }
+        
+        }
+        
+        }
+        
+        @for $i from 1 through $columns {
+
+            .col-xl-#{$i}{
+            
+                @media(min-width:$lg-width) and (max-width: $xl-width){
+                    grid-column: span $i;
+                }
+            
+            }
+            
+            } 
+
+

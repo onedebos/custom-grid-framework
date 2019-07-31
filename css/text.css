@@ -1,0 +1,98 @@
+.bg-dark-grey {
+  background-color: #313131;
+}
+
+.bg-grey {
+  background-color: #ccc;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-primary {
+  background-color: #0275d8;
+}
+
+.bg-success {
+  background-color: #5cb85c;
+}
+
+.bg-info {
+  background-color: #0070c9;
+}
+
+.bg-danger {
+  background-color: #d9534f;
+}
+
+.bg-muted {
+  background-color: #fafafa;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.text-1 {
+  font-size: 1em;
+}
+
+.text-2 {
+  font-size: 2em;
+}
+
+.text-3 {
+  font-size: 3em;
+}
+
+.text-4 {
+  font-size: 4em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-normal {
+  font-weight: 400;
+}
+
+.text-info {
+  color: #0070c9;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-darkgrey {
+  color: #313131;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-grey {
+  color: #ccc;
+}
+/*# sourceMappingURL=text.css.map */

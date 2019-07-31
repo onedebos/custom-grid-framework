@@ -28,7 +28,7 @@ $columns:12;
 
     .col-xs-#{$i}{
     
-        @media (max-width: 767px) {
+        @media(max-width:576px){
             grid-column: span $i;
         }
     
@@ -37,10 +37,10 @@ $columns:12;
     }
 @for $i from 1 through $columns {
 
-    .col-sm-#{$i}{
+    .col-md-#{$i}{
     
-        @media only screen and (min-width: 768px) and (max-width: 991px) 
-        {            grid-column: span $i;
+        @media only screen and (min-width: $xs-width) and (max-width: $md-width){
+                 grid-column: span $i;
         }
     
     }
@@ -49,10 +49,9 @@ $columns:12;
 
     @for $i from 1 through $columns {
 
-        .col-md-#{$i}{
+        .col-lg-#{$i}{
         
-            @media only screen and (min-width: 992px) and (max-width: 1199px) 
-            {
+            @media(min-width:$md-width) and (max-width: $lg-width){
                 grid-column: span $i;
             }
         
@@ -62,10 +61,9 @@ $columns:12;
         
         @for $i from 1 through $columns {
 
-            .col-lg-#{$i}{
+            .col-xl-#{$i}{
             
-                @media only screen and (min-width: 1200px) 
-                {
+                @media(min-width:$lg-width) and (max-width: $xl-width){
                     grid-column: span $i;
                 }
             

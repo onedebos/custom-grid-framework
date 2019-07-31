@@ -18,7 +18,10 @@
         }
     }
 }
-
+header{
+    position: fixed;
+    z-index: 999;
+}
 .nav-ul {
     display: flex;
     justify-content: space-evenly;
@@ -100,6 +103,42 @@
     article {
         
         div {
+            @media(max-width:768px) {
+                .figmd{
+                    display:none;
+                }
+                .figlg{
+                    display:none;
+                }
+                .figsm{
+                    display:block;
+                }
+            }
+        @media (min-width: 768px) and (max-width: 991px) 
+        {
+            .figmd {
+                display:block;
+            }
+            .figlg{
+                display:none;
+            }
+            .figsm{
+                display:none;
+            }
+        }
+        @media (min-width: 992px) 
+{
+    .figmd img{
+        display:none;
+    }
+    .figlg{
+        display:block;
+    }
+    .figsm{
+        display:none;
+    }
+}
+    }
            
             h3 {
                 a {
@@ -111,7 +150,6 @@
             }
         }
         }
-    }
 
 .section-3 {
 
@@ -119,6 +157,42 @@
 
     article {
 
+        div{
+            @media(max-width:768px) {
+                .large-img{
+                    display:none;
+                }
+                .small-img{
+                    display:block;
+                }
+                .med-img{
+                    display:none;
+                }
+            }
+        @media (min-width: 768px) and (max-width: 991px) 
+        {  .large-img{
+            display:none;
+        }
+        .small-img{
+            display:none;
+        }
+        .med-img{
+            display:block;
+        }
+        }
+        @media (min-width: 992px) 
+{
+    .large-img{
+        display:block;
+    }
+    .small-img{
+        display:none;
+    }
+    .med-img{
+        display:none;
+    }
+}
+        }
 
         h4 {
             display: none;
@@ -399,32 +473,18 @@ div{
     .footer-main {
         display: none;
     }
-   
-}
-@media only screen and (min-width: 768px) and (max-width: 991px) 
-{
-    .figmd {
-        display:block;
+    .figmd{
+        display:none;
     }
     .figlg{
         display:none;
     }
     .figsm{
-        display:none;
-    }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) 
-{
-    .figmd {
-        display:none;
-    }
-    .figlg{
         display:block;
     }
-    .figsm{
-        display:none;
-    }
 }
+
+
 @media(min-width:768px) {
     .footer-mobile {
         display: none;

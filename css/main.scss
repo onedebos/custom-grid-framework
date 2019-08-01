@@ -7,7 +7,23 @@
 //variables
 $columns:12;
 
+.flex-center{
+    display:flex;
+    justify-content: center;
+}
+.flex-space-evenly{
+    display:flex;
+    justify-content: space-evenly;
+}
+.flex-space-between{
+    display:flex;
+    justify-content: space-between;
+}
 
+.flex-space-around{
+    display:flex;
+    justify-content: space-around;
+}
 
 .row {
     display: grid;

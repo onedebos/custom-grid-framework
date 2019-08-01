@@ -1,0 +1,36 @@
+.bg-dark-grey {
+  background-color: #313131;
+}
+
+.bg-grey {
+  background-color: #ccc;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-primary {
+  background-color: #0275d8;
+}
+
+.bg-success {
+  background-color: #5cb85c;
+}
+
+.bg-info {
+  background-color: #0070c9;
+}
+
+.bg-danger {
+  background-color: #d9534f;
+}
+
+.bg-muted {
+  background-color: #fafafa;
+}
+/*# sourceMappingURL=colors.css.map */

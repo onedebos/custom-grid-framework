@@ -1,0 +1,76 @@
+.bg-dark-grey {
+  background-color: #313131;
+}
+
+.bg-grey {
+  background-color: #ccc;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-primary {
+  background-color: #0275d8;
+}
+
+.bg-success {
+  background-color: #5cb85c;
+}
+
+.bg-info {
+  background-color: #0070c9;
+}
+
+.bg-danger {
+  background-color: #d9534f;
+}
+
+.bg-muted {
+  background-color: #fafafa;
+}
+
+.bt-1 {
+  border-top: 1px solid #fafafa;
+}
+
+.bb-1 {
+  border-bottom: 1px solid #fafafa;
+}
+
+.bl-1 {
+  border-left: 1px solid #fafafa;
+}
+
+.br-1 {
+  border-right: 1px solid #fafafa;
+}
+
+.border-1 {
+  border: 1px solid #fafafa;
+}
+
+.bt-2 {
+  border-top: 2px solid #fafafa;
+}
+
+.bb-2 {
+  border-bottom: 2px solid #fafafa;
+}
+
+.bl-2 {
+  border-left: 2px solid #fafafa;
+}
+
+.br-2 {
+  border-right: 2px solid #fafafa;
+}
+
+.border-2 {
+  border: 2px solid #fafafa;
+}
+/*# sourceMappingURL=border.css.map */

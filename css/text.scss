@@ -1,0 +1,56 @@
+@import 'colors';
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight: normal;
+}
+
+@for $i from 1 through 4{
+    
+.text-#{$i}
+{
+    font-size:#{$i}em;
+}
+}
+
+
+    .text-center{
+        text-align: center;
+    }
+
+    .text-left{
+        text-align: left;
+    }
+
+    .text-right{
+        text-align: right;
+    }
+
+    .text-bold{
+        font-weight: 600;
+    }
+
+    .text-normal{
+        font-weight: 400;
+    }
+
+    .text-info{
+        color:$info;
+    }
+
+    .text-black{
+        color:$black;
+    }
+
+    .text-darkgrey{
+        color:$dark-grey;
+    }
+
+    .text-white{
+        color:#fff;
+    }
+
+    .text-grey{
+        color:$grey;
+    }

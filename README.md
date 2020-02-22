@@ -6,6 +6,9 @@ Used:
 - SASS
 - CSS
 
+# Preview
+![screenshot](./app_screenshot.png)
+
 # Authors
 - Adebola Adeniran  [https://github.com/onedebos/]
 - Fatima Ahmed  [https://github.com/fatymahmed/]
